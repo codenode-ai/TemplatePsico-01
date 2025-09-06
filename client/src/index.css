@@ -100,17 +100,26 @@
   z-index: 1000;
   background: transparent;
   border: none;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  outline: none;
+  width: 110px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
+  box-shadow: none;
 }
 
 .floating-whatsapp:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.floating-whatsapp:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.floating-whatsapp:focus-visible {
+  outline: none;
+  box-shadow: none;
 }

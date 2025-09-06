@@ -7,11 +7,12 @@ export default function FloatingWhatsapp() {
       rel="noopener noreferrer"
       data-testid="button-floating-whatsapp"
       aria-label="Entre em contato via WhatsApp"
+      style={{ boxShadow: 'none', outline: 'none' }}
     >
       <img 
         src="/whatsapp.ico.png" 
         alt="WhatsApp" 
-        className="w-8 h-8"
+        className="w-16 h-16"
       />
     </a>
   );

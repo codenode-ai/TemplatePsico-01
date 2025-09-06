@@ -78,24 +78,24 @@ export default function Footer() {
             <div className="flex space-x-4">
               <a 
                 href="#" 
-                className="w-10 h-10 bg-background/20 rounded-full flex items-center justify-center hover:bg-background/30 transition-colors"
+                className="w-14 h-14 bg-background/20 rounded-full flex items-center justify-center hover:bg-background/30 transition-colors"
                 data-testid="link-instagram"
               >
-                <i className="fab fa-instagram text-background" />
+                <i className="fab fa-instagram text-background text-xl" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-background/20 rounded-full flex items-center justify-center hover:bg-background/30 transition-colors"
+                className="w-14 h-14 bg-background/20 rounded-full flex items-center justify-center hover:bg-background/30 transition-colors"
                 data-testid="link-facebook"
               >
-                <i className="fab fa-facebook text-background" />
+                <i className="fab fa-facebook text-background text-xl" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-background/20 rounded-full flex items-center justify-center hover:bg-background/30 transition-colors"
+                className="w-14 h-14 bg-background/20 rounded-full flex items-center justify-center hover:bg-background/30 transition-colors"
                 data-testid="link-linkedin"
               >
-                <i className="fab fa-linkedin text-background" />
+                <i className="fab fa-linkedin text-background text-xl" />
               </a>
             </div>
           </div>

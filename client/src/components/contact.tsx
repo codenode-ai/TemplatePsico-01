@@ -205,7 +205,7 @@ export default function Contact() {
                   Resposta rápida e atendimento personalizado
                 </p>
                 <a 
-                  href="https://wa.me/5548999999999?text=Olá! Gostaria de agendar uma consulta." 
+                  href="https://wa.me/5534996670069?text=Olá!Gostaria de um site como este!" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-[#25D366] text-white px-6 py-3 rounded-lg hover:bg-[#128C7E] transition-colors inline-flex items-center font-semibold"
