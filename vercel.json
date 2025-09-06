@@ -4,7 +4,9 @@
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist/public" }
+      "config": {
+        "distDir": "dist/public"
+      }
     },
     {
       "src": "server/index.ts",
@@ -15,6 +17,9 @@
     {
       "src": "/api/contact",
       "dest": "/api/contact.ts"
+    },
+    {
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
