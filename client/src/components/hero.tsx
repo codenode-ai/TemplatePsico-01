@@ -67,14 +67,14 @@ export default function Hero() {
               className="rounded-2xl shadow-2xl w-full h-auto"
               data-testid="img-hero-therapy"
             />
-            <div className="absolute -bottom-6 -left-6 bg-secondary/90 backdrop-blur-sm text-secondary-foreground p-6 rounded-xl shadow-lg">
+            <div className="absolute -bottom-6 -left-6 bg-secondary/90 backdrop-blur-sm text-white p-6 rounded-xl shadow-lg">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-card rounded-full flex items-center justify-center">
                   <i className="fas fa-heart text-primary text-xl" />
                 </div>
                 <div>
-                  <p className="font-semibold" data-testid="text-stats-number">Mais de 500</p>
-                  <p className="text-sm" data-testid="text-stats-label">vidas transformadas</p>
+                  <p className="font-semibold text-white" data-testid="text-stats-number">Mais de 500</p>
+                  <p className="text-sm text-white" data-testid="text-stats-label">vidas transformadas</p>
                 </div>
               </div>
             </div>

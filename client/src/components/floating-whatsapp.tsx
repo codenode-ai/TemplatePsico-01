@@ -1,14 +1,18 @@
 export default function FloatingWhatsapp() {
   return (
     <a 
-      href="https://wa.me/5548999999999?text=Olá! Gostaria de agendar uma consulta." 
+      href="https://wa.me/5534996670069?text=Olá, gostaria de um site como este!" 
       className="floating-whatsapp" 
       target="_blank" 
       rel="noopener noreferrer"
       data-testid="button-floating-whatsapp"
-      aria-label="Agendar consulta via WhatsApp"
+      aria-label="Entre em contato via WhatsApp"
     >
-      <i className="fab fa-whatsapp text-white text-2xl" />
+      <img 
+        src="/whatsapp.ico.png" 
+        alt="WhatsApp" 
+        className="w-8 h-8"
+      />
     </a>
   );
 }
